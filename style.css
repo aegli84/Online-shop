@@ -1,0 +1,75 @@
+.index, .cart {
+    background-color: bisque;
+    margin-left: 270px;
+}
+
+.shop {
+    width: 990px;
+    height: 600px;
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
+    box-shadow: -2px 4px 19px 4px grey;
+}
+
+h1 {
+    width: 990px;
+    text-align: center;
+    border-left: 5px solid rgb(72, 167, 72);
+    border-width: 10px;
+    background-color: cornsilk;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.mainpic {
+    width: 1000px;
+    height: 400px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.column { 
+    float: left;
+    width: 26%;
+    padding: 30px 5px;
+    margin-left: 20px;
+}
+.row {
+    margin: 20px 0;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    width: 250px;
+    text-align: center;
+    height: 510px;
+    align-content: center;
+    box-shadow: -1px -3px 24px -2px grey;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.other {
+    width: 250px;
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
