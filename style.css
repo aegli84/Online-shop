@@ -38,7 +38,6 @@ h1 {
 }
 .row:after {
     content: "";
-    display: table;
     clear: both;
 }
 .card {
@@ -51,6 +50,7 @@ h1 {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    
 }
 
 .other {
@@ -58,9 +58,26 @@ h1 {
     height: 200px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+    
 }    
 
+.footer {
+    width: 1000px;
+    height: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: none;
+}
 
+h2 {
+    width: 990px;
+    text-align: center;
+    border-left: 5px solid rgb(72, 167, 72);
+    border-width: 10px;
+    background-color: cornsilk;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
 
 
 
